@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan Pellegrini</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Renan Pellegrini</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            About me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about profile-area" data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card text-bg-dark">
+                        <div class="img1"><img src="./mídias/coffee.jpg"></div>
+                        <div class="img2"><img src="./mídias/perfil.jpg"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Hi
+                            </h4>
+                            <p>I'm Renan Pellegrini, pursuing a career transition into programming with a focus on Python fullstack development. My goal is to gain strong skills in this field and contribute to challenging projects. My passion for solving complex problems and dedication to learning new abilities will drive my success in this new career.</p>
+                        </div>
+                    </article>
+                </div>
+    </section>
+    <section id="skills" class="mt-2 mb-2">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-4">Skills</h2>
+            </div>
+            <div class="row">
+                <div>
+                    <nav class="nav d-flex justify-content-center">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#html" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored active">
+                            <img src="./mídias/html5.png" alt="HTML5" class="w-50 w-md-50"/>
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#css" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored">
+                            <img src="./mídias/css.png" alt="CSS3" class="w-50 w-md-50"/>
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#js" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored">
+                            <img src="./mídias/javascript-logo-1.png" alt="JavaScript" class="w-50 w-md-50"/>
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#python" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored">
+                            <img src="./mídias/python.png" alt="Python" class="w-50 w-md-50"/>
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#django" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored">
+                            <img src="./mídias/django.png" alt="Django" class="w-50 w-md-50"/>
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#postgre" class=" col-6 col-md-4 col-lg-2 fw-bold nav-link text-colored">
+                            <img src="./mídias/postgree.svg" alt="PostgreSQL" class="w-50 w-md-50"/>
+                        </button>
+                    </nav>
+                </div>
+                <div>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="html">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">HTML 5</h5>
+                                    <p>HTML5 is the fifth version of the HyperText Markup Language (HTML), a markup language used to structure and present content on the web. Introduced in 2014, HTML5 brought significant improvements, including enhanced support for multimedia, new semantic tags, integration with JavaScript APIs, and greater accessibility. These innovations allowed for the development of richer and more interactive web applications, making HTML5 the foundation for creating modern web pages and apps.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="css">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">CSS 3</h5>
+                                    <p>CSS3 is the third version of Cascading Style Sheets (CSS), a stylesheet language used to control the appearance and layout of web content. Introduced in 2011, CSS3 brought numerous enhancements, including advanced selectors, new visual effects, improved typography, and support for responsive design. These features enabled the creation of more visually appealing and adaptable web pages, establishing CSS3 as a crucial component for crafting modern and aesthetically pleasing web designs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="js">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">Javascript</h5>
+                                    <p>JavaScript is a versatile, high-level programming language primarily used for client-side scripting in web development. Since its inception in 1995, JavaScript has become an essential tool for creating interactive and dynamic web pages, enabling features like form validation, animations, and event handling. With the rise of Node.js, JavaScript has expanded beyond the browser to server-side development, making it a full-stack language. Its flexibility, extensive ecosystem, and integration with HTML and CSS make JavaScript a cornerstone of modern web development.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="python">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">Python</h5>
+                                    <p>Python is a high-level, versatile programming language known for its readability and ease of use. Created by Guido van Rossum in 1991, Python has gained widespread adoption for a variety of applications, from web development and data analysis to artificial intelligence and scientific computing. Its extensive standard library, rich ecosystem of third-party packages, and support for multiple programming paradigms make Python a popular choice for developers of all experience levels.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="django">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">Django</h5>
+                                    <p>Django is a robust, open-source web framework for Python, designed to streamline the development of web applications by providing a collection of reusable components. Developed in 2005 by Adrian Holovaty and Simon Willison, Django follows the Model-View-Controller (MVC) architectural pattern, promoting clean, modular code and separation of concerns. Its features include an ORM, automatic admin interface, and support for forms, authentication, and URL routing. Django's "batteries-included" philosophy makes it a popular choice for rapid web development.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="postgre">
+                            <div class="row text-center justify-content-center">
+                                <div class="row col-12 col-md-6">
+                                    <h5 class="text-colored fw-bold mt-5 mb-4">PostgreSQL</h5>
+                                    <p>PostgreSQL, often abbreviated as Postgres, is a powerful, open-source object-relational database management system (ORDBMS) that emphasizes extensibility and SQL compliance. First released in 1996, PostgreSQL has a strong focus on reliability, data integrity, and concurrency control, making it suitable for a wide range of applications, from small-scale projects to enterprise-level systems. Key features include support for complex queries, full-text search, and spatial data types, along with built-in support for JSON, XML, and procedural languages like PL/pgSQL. PostgreSQL's robust functionality and active community contribute to its reputation as a reliable and scalable database solution.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">
+                    Contact
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label text-colored fw-bold">Your name</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-colored fw-bold">Your e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label text-colored fw-bold">Your phone (optional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label text-colored fw-bold">Your message</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Social Media
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="https://github.com/renanpellegrini">
+                                    <i class="bi bi-github text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="https://www.linkedin.com/in/renanpellegrini/">
+                                    <i class="bi bi-linkedin text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="https://www.instagram.com/renanpellegrini/">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="https://wa.me/554598278920">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Address
+                        </h3>
+                        <p>Av Brasil 353, Centro, Três Barras do Paraná - Paraná - Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

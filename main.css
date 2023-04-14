@@ -1,0 +1,102 @@
+.navbar {
+    background-color: black;
+    color: #fff;
+    opacity: 0.8;
+}
+
+h1 {
+    color:#fff !important;
+}
+
+.nav-item .nav-link.active {
+    background-color: #fff;
+    color:black;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+body::before {
+    content: "";
+    background-image: url(' ');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.section-title,
+p {
+    color:#fff;
+    opacity: 0.8;
+}
+
+.text-colored {
+    color:#fff;
+    opacity: 0.8;
+}
+
+
+form button {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.social-links li {
+    color: rgba(255, 255, 255, 0.8);
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.card-body p {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.img1 img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -90px;
+}
+
+.profile-area {
+    padding: 80px 0;
+}

@@ -1,4 +1,5 @@
-.navbar {
+.navbar,
+footer {
     background-color: black;
     color: #fff;
     opacity: 0.8;

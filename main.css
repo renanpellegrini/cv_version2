@@ -5,8 +5,12 @@ footer {
     opacity: 0.8;
 }
 
-h1 {
+h1, h4 {
     color:#fff !important;
+}
+
+h4 {
+    justify-content: center;
 }
 
 .nav-item .nav-link.active {
